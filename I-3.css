@@ -1,0 +1,56 @@
+body{
+    background-color: blueviolet;
+}
+h1{
+    font-family: fantasy;
+    color: #ffffff;
+    margin-left: 45%;
+}
+.container {
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .board {
+    margin-left: 40%;
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .cell {
+    width: 100px;
+    height: 100px;
+    background-color: #c04eb8;
+    border: 1px solid #ccc;
+    font-size: 50px;
+    color:purple ;
+    font-family: fantasy;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .cell:hover {
+    background-color: #ff85e2;
+  }
+  
+  button {
+    margin-left: 47.5%;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: fantasy;
+    background-color: #ff85e2;
+    color: blueviolet;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: lightgray;
+  }
+  #result{
+    justify-content: center;
+  }
+  
